@@ -35,13 +35,13 @@ Only one valid answer exists.
 
 class Solution(object):
     def twoSum(self, nums, target):
-        d = {}
+        d1 = {}
         for i in range(0, len(nums)):
-            d[nums[i]] = i 
+            d1[nums[i]] = i 
 
         for i in range(0,len(nums)):
             x = target - nums[i]
-            if x in d and i != d[x]:
-                return[i,d[x]]
+            if x in d1 and i != d1[x]:
+                return[i,d1[x]]
 
         return none      
