@@ -1,5 +1,7 @@
 # Leet_code
 PYTHON :
+
+
   Easy_problem.
   
   Hard_problem .
@@ -7,7 +9,8 @@ PYTHON :
   complex_problem.
 
 JAVA :
-  Easy_problem.
+
+ Easy_problem.
   
   Hard_problem .
   
