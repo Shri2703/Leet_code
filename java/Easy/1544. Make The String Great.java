@@ -9,8 +9,6 @@ class Solution {
                 stack.push(c);
             }
         }
-
-        
         StringBuilder result = new StringBuilder();
         while (!stack.isEmpty()) {
             result.insert(0, stack.pop());
