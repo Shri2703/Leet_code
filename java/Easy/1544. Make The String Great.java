@@ -13,6 +13,7 @@ class Solution {
         while (!stack.isEmpty()) {
             result.insert(0, stack.pop());
         }
+      
         return result.toString();
     }
 }
