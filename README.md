@@ -9,6 +9,7 @@ PYTHON :
 
 JAVA :
 
+
  Easy_problem.
   
   Hard_problem .
