@@ -1,7 +1,4 @@
 
-
-
-
 # Leet_code
 PYTHON :
   Easy_problem.
