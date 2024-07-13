@@ -1,17 +1,19 @@
 # Leet_code
 PYTHON :
-
-
   Easy_problem.
-  
+ 
   Hard_problem .
   
   complex_problem.
 
-JAVA :
 
+  
+
+JAVA :
  Easy_problem.
   
   Hard_problem .
   
   complex_problem.
+
+
