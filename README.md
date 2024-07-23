@@ -1,6 +1,4 @@
 
-
-
 # Leet_code
 PYTHON :
 
