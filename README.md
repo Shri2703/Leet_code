@@ -1,9 +1,5 @@
 
 
-
-
-
-
 # Leet_code
 PYTHON :
 
