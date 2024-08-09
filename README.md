@@ -1,7 +1,5 @@
 # Leet_code
 
-
-
 PYTHON :
 
 
