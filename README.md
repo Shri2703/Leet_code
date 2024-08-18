@@ -8,10 +8,7 @@ PYTHON :
   Hard_problem .
 
   
-  complex_problem.
-
-
-  
+  complex_problem. 
 
 JAVA :
 
