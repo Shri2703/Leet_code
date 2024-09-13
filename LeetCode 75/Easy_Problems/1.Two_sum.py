@@ -47,3 +47,57 @@ class Solution(object):
                 return[i,d1[x]]
 
         return none      
+
+
+
+//java soution 
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Initialize the scanner to read input from the user
+        Scanner scanner = new Scanner(System.in);
+        
+        // Get the size of the array
+        System.out.println("Enter the number of elements in the array:");
+        int n = scanner.nextInt();
+        
+        // Declare the array and take input
+        int[] nums = new int[n];
+        System.out.println("Enter the array elements:");
+        for (int i = 0; i < n; i++) {
+            nums[i] = scanner.nextInt();
+        }
+        
+        // Get the target value
+        System.out.println("Enter the target value:");
+        int target = scanner.nextInt();
+        
+        // Call the twoSum function
+        int[] result = twoSum(nums, target);
+        
+        // Print the result
+        if (result.length == 0) {
+            System.out.println("No solution found.");
+        } else {
+            System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+
+    // The twoSum function to find the indices of two numbers that add up to the target
+    public static int[] twoSum(int[] nums, int target) {
+        int n = nums.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i, j}; // Return the indices if a solution is found
+                }
+            }
+        }
+        return new int[]{}; // Return an empty array if no solution is found
+    }
+}
