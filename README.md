@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 # Leet_code
 
 PYTHON :
