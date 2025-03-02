@@ -5,7 +5,7 @@ class Solution {
         int k = 1; // Index for the next unique element
         //loop to the each array to find the duplicates
         for (int i = 1; i < nums.length; i++) {//start from the 1 to length of the array
-            if (nums[i] != nums[i - 1]) {//checking the current element in the array is equal to the next element are not   
+            if (nums[i] != nums[i - 1]) {//checking the current element in the array is equal to the next element are not    
                 nums[k] = nums[i];//if true adding that element into the array 
                 k++;// then incesing the pointer
             }
