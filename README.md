@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 # Leet_code
 
 PYTHON :
